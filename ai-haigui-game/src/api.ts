@@ -7,7 +7,7 @@ export type Story = TStory;
  * - 开发：留空，使用相对路径 `/api/chat`，由 Vite proxy 转发到后端。
  * - 生产：若前后端不同域，可设为完整后端地址，例如 `https://api.example.com`。
  */
-const API_ROOT = import.meta.env.VITE_API_ROOT || '';
+const API_ROOT = import.meta.env.VITE_AI_API_URL || '';
 
 export async function askAI(question: string, story: Story): Promise<string> {
   try {
