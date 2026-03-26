@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/chatbox.tsx","./src/components/gamecard.tsx","./src/components/message.tsx","./src/components/storyreveal.tsx","./src/data/stories.ts","./src/pages/game.tsx","./src/pages/home.tsx","./src/pages/result.tsx","./src/types/index.ts"],"version":"5.9.3"}
