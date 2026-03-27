@@ -5,6 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
+app.use(cors())
 const port = process.env.PORT || 3001;
 const frontendOrigin = process.env.FRONTEND_ORIGIN || 'http://127.0.0.1:5173';
 const deepseekApiUrl =
